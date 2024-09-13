@@ -1,0 +1,9 @@
+version: '3.3'
+name: bot-discord
+services:
+  discord:
+    container_name: discordbot
+    image: dcbot:v1.0
+    ports:
+      - 5000:5000
+
